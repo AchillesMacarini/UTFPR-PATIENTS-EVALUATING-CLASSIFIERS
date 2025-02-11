@@ -1,0 +1,5 @@
+TetanusLast10Tdap,ID
+"No, did not receive any tetanus shot in the past 10 years",0
+"Yes, received tetanus shot, but not Tdap",1
+"Yes, received tetanus shot but not sure what type",2
+"Yes, received Tdap",3

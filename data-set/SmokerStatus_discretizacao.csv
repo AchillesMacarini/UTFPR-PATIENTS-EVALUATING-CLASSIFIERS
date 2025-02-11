@@ -1,0 +1,5 @@
+SmokerStatus,ID
+Never smoked,0
+Former smoker,1
+Current smoker - now smokes some days,2
+Current smoker - now smokes every day,3
