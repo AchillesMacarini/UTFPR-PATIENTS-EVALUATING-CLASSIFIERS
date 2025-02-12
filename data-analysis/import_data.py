@@ -16,5 +16,5 @@ for arquivo in os.listdir(os.path.join(script_dir,'..','data-set')):
         mapping = df.set_index(df.columns[0])['ID'].to_dict()
         data[df.columns[0]] = data[df.columns[0]].map(mapping)
 
-classes = data['GeneralHealth']
+classes = data['GeneralHealth'].values
 features = data.drop(columns=['GeneralHealth', 'PatientID'])
