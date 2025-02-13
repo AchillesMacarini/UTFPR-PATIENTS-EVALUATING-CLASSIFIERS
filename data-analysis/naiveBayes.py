@@ -10,9 +10,9 @@ dataset
 dataset.GeneralHealth.hist()
 
 labels = dataset['GeneralHealth'].values
-data = dataset.drop(columns=['GeneralHealth']).values
+data = dataset.drop(columns=['GeneralHealth','PatientID']).values
 
-
+print(data)
 skf = StratifiedKFold(n_splits=10, random_state=42, shuffle=True)
 
 L_acc_nb = []  # Lista para armazenar acurácias do Naive Bayes
